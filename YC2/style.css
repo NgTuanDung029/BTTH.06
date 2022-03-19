@@ -1,0 +1,21 @@
+
+.sort-up-and-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.more-and-more{
+    display: flex;
+    justify-content: center ;
+}
+.more{
+    margin-top:18px
+}
+.create{
+    display: block;
+    margin-top:18px
+}
+.after{
+    display: block;
+}
