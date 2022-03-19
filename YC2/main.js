@@ -15,8 +15,8 @@ function tao_mang() {
     for (let i = 0; i < 10; i++) {
         array[i] = Math.floor(Math.random() * 100);
     }
-    arrayInitialization.innerHTML = array;
-    end.innerHTML = array;
+    arrayInitialization.textContent = array;
+    end.textContent = array;
     console.log(array);
 }
 
@@ -36,7 +36,7 @@ function sap_tang() {
 }
 function sap_giam() {
     array.sort().reverse();
-    end.innerHTML = array;
+    end.textContent = array;
 }
 //Click button sort up or sort down and print result
 sortUp.addEventListener('click', sap_xep);
@@ -49,5 +49,5 @@ function them(){
     let newValue = value.value;
     let newLocated = located.value;
     array.splice(newLocated, 0, newValue);
-    end.innerHTML = array;
+    end.textContent = array;
 }
