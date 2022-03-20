@@ -12,10 +12,37 @@
 .more{
     margin-top:18px
 }
-.create{
-    display: block;
-    margin-top:18px
-}
 .after{
-    display: block;
+    width: 20%;
+    color: rgb(255, 196, 0);
+}
+.tittle h1{
+    text-align: center;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.create{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+table{
+    width: 60%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.btn-create{
+    display: flex;
+    justify-content: center;
+    padding: 3px 15px 3px 15px;
+}
+.end{
+    text-align: center;
+}
+.array-initialization{
+    width: 80%;
 }
