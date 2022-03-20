@@ -1,17 +1,14 @@
 
-#thoi_gian{
-    display:flex;
-}
-#thoi_gian div{
-    position: relative;
-    margin: 0 0px;
-}
 .banner{
     display: flex;
-    width:30%;
-    border-radius: black;
+    width:350px;
+    border: 2px solid black;
 }
 .time{
-    justify-content: center;
+    text-align: center;
     background-color: black;
+    margin-right: 30px;
+}
+#Hello{
+    color: red;
 }
